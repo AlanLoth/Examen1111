@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Actividad1 extends AppCompatActivity {
+public class Cosa1 extends AppCompatActivity {
     EditText pesos;
     TextView msj;
 
@@ -31,7 +31,7 @@ public class Actividad1 extends AppCompatActivity {
             conversion = money/15;
 
 
-            Intent envia = new Intent(this, Actividad2.class);
+            Intent envia = new Intent(this, Cosa2.class);
             Bundle datos = new Bundle();
             datos.putDouble("Pesos", money);
             datos.putDouble("Dolares", conversion);
