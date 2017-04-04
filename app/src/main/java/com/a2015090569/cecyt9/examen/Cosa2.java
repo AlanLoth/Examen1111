@@ -18,7 +18,7 @@ public class Cosa2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_actividad2);
+        setContentView(R.layout.activity_cosa2);
         muestraDatos = (TextView) findViewById(R.id.msq);
         Bundle recibe = new Bundle();
         recibe = this.getIntent().getExtras();
