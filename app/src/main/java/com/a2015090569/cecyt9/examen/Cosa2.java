@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-public class Actividad2 extends AppCompatActivity {
+public class Cosa2 extends AppCompatActivity {
     double pesos, dolares;
     TextView muestraDatos;
     @Override
