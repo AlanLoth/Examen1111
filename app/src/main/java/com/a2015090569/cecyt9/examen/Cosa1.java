@@ -18,7 +18,7 @@ public class Cosa1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_actividad1);
+        setContentView(R.layout.activity_cosa1);
         pesos = (EditText) findViewById(R.id.cosa);
         msj = (TextView) findViewById(R.id.Idddd);
     }
